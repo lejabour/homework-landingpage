@@ -61,7 +61,7 @@ header {
 h1 {
   color: #fff;
   font-size: 26px;
-  padding: 20px;
+  padding: 30px;
   font-weight: bold;
   text-align: left;
 }
@@ -72,7 +72,9 @@ p {
   padding: 80px;
 }
 
-
+header button {
+  margin-bottom: 400px;
+}
 
 button {
   -moz-box-shadow: 0px 1px 0px 0px #fff6af;
@@ -169,8 +171,7 @@ h3 {
 p.benefits {
    color: #060606;
   font-size: 20px;
-  padding: 20px;
-  width: 420px;
+  padding: 30px;
 }
 
 ul {
@@ -186,21 +187,29 @@ li{
 
 ul.social{
   color: #ffffff;
+  list-style-type: none;
+  margin-bottom: 15px;
+}
 
+li.social{
+  display: inline-block;
+  margin-left: 0px;
+  padding-right: 10px;
 }
 
 .quote {
     color: #ffffff;
-    font-size: 16px;
-    padding: 200px;
-    width: 420px;
+    font-size: 20px;
     font-style: italic;
+    margin-top: 40px;
+    padding: 10px;
 }
 
 .author {
     color: #ffffff;
-    font-size: 16px;
-    width: 420px;
+    font-size: 20px;
+    padding: 30px;
+    margin-bottom: 40px;
 }
 
 small {
@@ -213,17 +222,23 @@ small {
   color: white;
   background: #f9e42e;
   padding: 20px;
-  border: 5px solid black;
 }
 
 h2 {
   color: #f9e42e;
   font-size: 26px;
-  padding: 20px;
   font-weight: bold;
   text-align: center;
 }
 
+h2.relaxr {
+  color: #f9e42e;
+  font-size: 26px;
+  padding: 20px;
+  margin-top: 30px;
+  font-weight: bold;
+  text-align: center;
+}
 
 /******************************************
 /* LAYOUT
@@ -244,6 +259,7 @@ h2 {
   margin: auto;
   height: 500px;
   float: left;
+  padding-top: 50px;
 }
 
 footer {
