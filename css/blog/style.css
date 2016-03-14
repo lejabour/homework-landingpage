@@ -110,6 +110,7 @@ section {
   padding-top: 20px;
   padding-left: 50px;
   padding-right: 30px;
+  background: #efefef;
 }
 
 
@@ -159,6 +160,17 @@ aside {
   float: right;
   padding-top: 20px;
   width: 40%;
+  background: #efefef;
+}
+
+div.ad {
+  background: #ffffff;
+  width: 240px;
+  font: #063048;
+  font-size: 32px;
+  text-align: center;
+  padding-bottom: 550px;
+
 }
 
 div.category {
