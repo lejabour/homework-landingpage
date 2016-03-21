@@ -21,9 +21,6 @@ $( "h5.read2" ).click(function() {
 
 
 
-
-
-
 console.log('hello');
 
 
