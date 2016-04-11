@@ -148,12 +148,22 @@ a {
 }
 
 h5.read1 {
-  align-content: right;
   text-align: right;
   padding: 10px 10px 30px 0px;
 }
 
 h5.read2 {
+  text-align: right;
+  padding: 10px 10px 30px 0px;
+}
+
+h5.readLess1 {
+  align-content: right;
+  text-align: right;
+  padding: 10px 10px 30px 0px;
+}
+
+h5.readLess2 {
   align-content: right;
   text-align: right;
   padding: 10px 10px 30px 0px;
